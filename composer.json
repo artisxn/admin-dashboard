@@ -1,0 +1,42 @@
+{
+    "name": "codicastudio/admin-dashboard",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "homepage": "https://github.com/codicastudio/admin-dashboard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "codicastudiodev@gmail.com",
+            "homepage": "https://codicastudio.dev",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": "^7.4",
+        "divineomega/array_undot": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "codicastudio\\NovaDashboard\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codicastudio\\NovaDashboard\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
