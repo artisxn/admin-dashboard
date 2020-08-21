@@ -16,7 +16,7 @@
     ],
 
     "require": {
-        "php": "^7.4",
+        "php": "^7.4.0",
         "divineomega/array_undot": "^4.1"
     },
     "autoload": {
